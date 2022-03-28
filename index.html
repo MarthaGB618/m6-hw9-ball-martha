@@ -12,11 +12,26 @@
 </head>
 <body>
     <header>Current Weather</header>
-    <main class="container">
+    <main>
+
+    <section class="input">
         <section id="weather"></section>
         <form>
-            <input type="text" placeholder="Search Location"/>
+            <input type="text" placeholder="Enter Location"/>
+            <button>Search</button>
         </form>
+    </section>
+
+    <section class="display">
+        <div class="results">
+            <h2 id="city"></h2>
+            <h3 id="current"></h3>
+            <h3 id="icon"></h3>
+            <h3 id="temperature"></h3>
+            <h3 id="feels"></h3>
+        </div>
+    </section>
+
     </main>
     <script src="main.js"></script>
 </body>

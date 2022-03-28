@@ -1,0 +1,67 @@
+* {
+	padding: 0;
+	margin: 0;
+	border: 0;
+	box-sizing: border-box;
+}
+
+html {
+    background: linear-gradient(to bottom right, #073392, #0C8FEE);
+    height: 100%;
+}
+header{
+    text-align: center;
+    color: white;
+    font-family: 'Merriweather' serif;
+    font-weight: 600;
+    font-size: 2rem;
+    padding-top: 2%;
+}
+
+
+ .input{
+     width: 500px;
+     margin: auto;
+     padding-left: 10%;
+     padding-top: 1.5%;
+   
+ }
+
+ #weather {
+     color: white;
+     padding: 1%;
+
+ }
+
+ .display {
+     text-align: center;
+     width: 500px;
+
+ }
+ h2,
+h3 {
+  font-family: 'Merriweather', serif;
+}
+
+h2 {
+  font-size: 2.5rem;
+  font-weight: 600;
+}
+h3 {
+  font-size: 1.75rem;
+  font-weight: 400;
+}
+
+img {
+  width: 100px;
+  height: 100px;
+}
+
+input{
+    color: black;
+    font-family: 'Merriweather' serif;
+}
+
+button{
+    border: 2px solid black;
+}
